@@ -1,6 +1,9 @@
 
 import axios from 'axios';
-const KEY = 'AIzaSyCTqKOhCYRhDWLP-8m6Ct0D8pCk2frDMI8';
+import env from "react-dotenv";
+
+
+const KEY = env.KEY;
 
 
 export default axios.create({
